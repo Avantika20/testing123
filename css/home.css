@@ -1,0 +1,135 @@
+.header{
+margin-top: 20px;
+}
+.header img{
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+}
+
+.header h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10vw;
+    text-align: center;
+}
+/*--------------------Slider---------------*/
+#slider {
+	overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#slider figure img {
+	float: left;
+	width: 20%;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+
+/* About page */
+
+#about{
+	background-color: lightgray;
+}
+
+.aboutus h1{
+	font-size: 5vw;
+	color:#BC4749;
+}
+
+.container2 {
+	position: relative;
+	width: 50%;
+  }
+  
+  .image {
+	display: block;
+	width: 50%;
+	height: auto;
+	border-radius: 500px;
+  }
+  
+  .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 197px;
+	right: 0;
+	height: 100%;
+	width: 50%;
+	opacity: 0;
+	transition: .35s ease;
+	border-radius: 1000px;
+	background:linear-gradient(45deg, #BC4749, #386641);
+  }
+  
+  .container2:hover .overlay {
+	opacity: 1;
+  }
+  
+  .text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+
+  .info{
+	margin-left: 200px;
+	margin-right: 200px;
+  }
+
+.aboutus button{
+	padding: 20px;
+	width: 20%;
+	background:linear-gradient(45deg, #BC4749, #386641);
+	color:aliceblue;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.aboutus button a{
+	text-decoration: none;
+	color: aliceblue;
+}
